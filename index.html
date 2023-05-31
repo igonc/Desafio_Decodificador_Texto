@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src="./assets/img/logo.svg" alt="Logo Alura">
+        <div class="icones">
+            <a href="https://github.com/amandagpf" target="_blank"><ion-icon class="ion"
+                    name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/amanda-pfernandes" target="_blank"><ion-icon class="ion"
+                    name="logo-linkedin"></ion-icon></a>
+            <a href="https://api.whatsapp.com/send?phone=5551992746543" target="_blank"><ion-icon class="ion"
+                    name="logo-whatsapp"></ion-icon></a>
+            <a href="https://instagram.com/programandaa?igshid=YmMyMTA2M2Y=" target="_blank"><ion-icon class="ion"
+                    name="logo-instagram"></ion-icon></a>
+            <a href="https://twitter.com/amandap4ssos?t=gQT7x-nvpEtsDez-eeKkzg&s=09" target="_blank"><ion-icon
+                    class="ion" name="logo-twitter"></ion-icon></a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <textarea class="textarea" cols="50" rows="100" placeholder="Digite seu texto aqui . . ." autofocus></textarea>
+            <div class="info">
+                <img class="exclamacao" src="Img/exclamacao.png">
+                <h6>Apenas letras minúsculas e sem acento!</h6>
+            </div>
+            <div class="botoes">
+                <button class="btnEncriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btnDesencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensagem" cols="20" rows="12" placeholder="..." readonly></textarea>
+            <button class="btnCopiar" onclick="btnCopiar()">Copiar</button>
+            <div class="imagem-alerta">
+                <img class="boneco" src="Img/boneco.png" alt="Nenhuma mensagem encontrada">
+                <img class="alerta" src="Img/alerta.png" alt="Nenhuma mensagem encontrada">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>&#169; 2023 - Todos os direitos reservados. Desenvolvido por Rodrigo Nunes Cavalcanti<br></p>
+        </section>
+
+        <section>
+            <a href="https://github.com/igonc" target="_blank"><img src="./assets/icons/github.svg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/rodrigo-nunes-cavalcanti/" target="_blank"><img
+                    src="./assets/icons/linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/drigoncavalcanti/" target="_blank"><img
+                    src="./assets/icons/instagram.svg" alt="Instagram"></a>
+        </section>
+
+
+
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
